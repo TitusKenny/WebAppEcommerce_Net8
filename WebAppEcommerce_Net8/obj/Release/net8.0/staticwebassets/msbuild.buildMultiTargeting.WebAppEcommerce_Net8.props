@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebAppEcommerce_Net8.props" />
+</Project>

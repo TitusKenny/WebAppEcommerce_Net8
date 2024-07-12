@@ -1,0 +1,9 @@
+﻿@model IEnumerable<WebAppEcommerce_Net8.ViewModel.HangHoaVM>
+@{
+    ViewData["Title"] = "Search";
+    Layout = "_DanhSachHanghoa";
+}
+<h1>Search</h1>
+@Html.PartialAsync("ProducItem", Model)
+
+
